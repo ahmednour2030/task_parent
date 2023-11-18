@@ -1,0 +1,55 @@
+{
+	"info": {
+		"_postman_id": "0efe96ab-5c65-4b60-baea-e1f7f042a625",
+		"name": "Task",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "9727640",
+		"_collection_link": "https://martian-spaceship-168955.postman.co/workspace/Supper-App~ea6258a5-b896-458e-a5e8-00443f072c2f/collection/9727640-0efe96ab-5c65-4b60-baea-e1f7f042a625?action=share&source=collection_link&creator=9727640"
+	},
+	"item": [
+		{
+			"name": "Get Data from file",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost/api/v1/transactions?provider=DataProviderY",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api",
+						"v1",
+						"transactions"
+					],
+					"query": [
+						{
+							"key": "provider",
+							"value": "DataProviderY",
+							"description": "DataProviderX ,  DataProviderY"
+						},
+						{
+							"key": "status",
+							"value": "authorised",
+							"description": "authorised",
+							"disabled": true
+						},
+						{
+							"key": "balanceMin",
+							"value": "100",
+							"description": "100",
+							"disabled": true
+						},
+						{
+							"key": "balanceMax",
+							"value": "200",
+							"description": "200",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
